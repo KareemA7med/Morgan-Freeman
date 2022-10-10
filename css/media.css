@@ -1,0 +1,151 @@
+@media screen and (max-width:600px)
+{
+    .vip::after
+    {
+        width: 13% !important;
+    }
+    .mynav ul li a:hover::after
+    {
+        width: 13%;
+    }
+    .home h1
+    {
+        font-size: 40px;
+    }
+    .sora
+    {
+        display: grid !important;
+    }
+    .caption1
+    {
+        margin-left: 0px !important ; 
+    }
+    .SERVICES h4,.work h4,.BLOGS h4
+    {
+        font-size: 14px;
+    }
+    .statics
+    {
+        height: 950px;
+    }
+    .stat
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .static
+    {
+        width: 100%;
+    }
+    .SERVICES1,.SERVICES2,.blogs-row,.row-work
+    {
+        flex-wrap: wrap !important;
+    }
+    .work-middle ,.blog-middle,.service-middle
+    {
+        margin: 20px 0px !important;
+    }
+    .CONTACTUS
+    {
+        height: 1200px;
+    }
+}
+@media screen and (min-width:601px) and ( max-width:768px)
+{
+    .vip::after
+    {
+        width: 13% !important;
+    }
+    .mynav ul li a:hover::after
+    {
+        width: 13%;
+    }
+    .home h1
+    {
+        font-size: 50px;
+    }
+    .sora
+    {
+        display: grid !important;
+    }
+    .statics
+    {
+        height: 940px;
+    }
+    .caption1
+    {
+        margin-left: 0px !important ; 
+    }
+    .SERVICES1,.SERVICES2,.blogs-row,.row-work
+    {
+        flex-wrap: wrap !important;
+    }
+    .work-middle ,.blog-middle,.service-middle
+    {
+        margin: 20px 0px !important;
+    }
+    .statics
+    {
+        height: 950px;
+    }
+    .stat
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .static
+    {
+        width: 100%;
+    }
+    .CONTACTUS
+    {
+        height: 1200px;
+    }
+}
+@media screen and (min-width:769px) and ( max-width:992px)
+{
+    .vip::after
+    {
+        width: 9% !important;
+    }
+    .mynav ul li a:hover::after
+    {
+        width: 9%;
+    }
+    .statics
+    {
+        height: 940px;
+    }
+    .SERVICES1,.SERVICES2,.blogs-row,.row-work
+    {
+        flex-wrap: wrap !important;
+    }
+    .work-middle ,.blog-middle,.service-middle
+    {
+        margin: 20px 0px !important;
+    }
+    .statics
+    {
+        height: 950px;
+    }
+    .stat
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .static
+    {
+        width: 100%;
+    }
+    .CONTACTUS
+    {
+        height: 1200px;
+    }
+}
+@media screen and (min-width:992px)
+{
+    .CONTACTUS
+    {
+        height: 130vh;
+    }
+}
