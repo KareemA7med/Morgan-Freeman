@@ -303,7 +303,7 @@ header
     height: 5px;
     background-color: #0078FF;
     position: absolute;
-    top: 40px;
+    top: 130%;
     left: 50%;
     transform: translate(-50%);
 }
@@ -453,7 +453,7 @@ header
 {
     cursor: pointer;
 }
-.blog h2
+.blog h2,.blog h4
 {
     
     font-size: 21px;
@@ -462,7 +462,7 @@ header
     transition: all .5s;
     margin: 20px 10px;
 }
-.blog h2:hover
+.blog h2:hover,.blog h4:hover
 { 
     color: #0078ff ;
 }
@@ -477,32 +477,6 @@ header
     line-height: 24px;
     margin:10px;
     color: #4e4e4e;
-    position: relative;
-}
-.blog p::after
-{
-    background-color: #0078FF;
-    position: absolute;
-    top: -80px;
-    left: 50%;
-    transform: translate(-50%);
-    text-align: center;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 13px;
-    padding: 5px;
-}
-.blog1 p::after
-{
-    content: 'TRAVEL';
-}
-.blog2 p::after
-{
-    content: 'WEB DESIGN';
-}
-.blog3 p::after
-{
-    content: 'WEB DESIGN';
 }
 .foot-blog
 {
