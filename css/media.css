@@ -1,4 +1,12 @@
-@media screen and (max-width:600px)
+@media screen and ( max-width:290px)
+{
+    .home h1
+    {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:290px) and (max-width:600px)
 {
     .vip::after
     {
@@ -10,7 +18,7 @@
     }
     .home h1
     {
-        font-size: 40px;
+        font-size: 33px;
     }
     .sora
     {
